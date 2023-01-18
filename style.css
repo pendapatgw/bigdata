@@ -1,0 +1,13 @@
+.bi, .bi-person {
+  color: white;
+  display: block;
+  padding-top: 10px;
+}
+
+.jumbotron .container {
+  height: 70vh;
+}
+.jumbotron .container h1 {
+  padding-top: 7rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
