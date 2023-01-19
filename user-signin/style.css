@@ -59,47 +59,15 @@
   --bs-body-bg: #fff;
 }
 
-.bi,
-.bi-person {
-  color: white;
-  display: block;
-  padding-top: 10px;
+svg {
+  width: 10rem;
+  height: 10rem;
 }
 
-.jumbotron .container {
-  height: 80vh;
-}
-.jumbotron .container .hero {
-  padding-top: 12rem;
-  text-align: center;
-}
-
-.produk {
+section {
   background-color: var(--bs-gray-400);
-}
-
-.footer {
-  background-color: var(--bs-dark);
-  height: 12vh;
-}
-
-.row {
-  margin: 0;
-  padding: 0;
-}
-.row .col-md-4 {
-  display: flex;
-  justify-content: center;
-}
-
-.card-body {
+  height: 91vh;
   display: flex;
   flex-direction: column;
-}
-.card-body a {
-  font-weight: bold;
-}
-.card-body a:hover {
-  background-color: var(--bs-dark);
-  color: var(--bs-light);
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
