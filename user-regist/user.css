@@ -70,4 +70,9 @@
 #form svg {
   width: 10rem;
   height: 10rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=user.css.map */

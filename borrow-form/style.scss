@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--bs-dark);
+  height: 12vh;
+}
+section{
+    height: 80vh;
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+}

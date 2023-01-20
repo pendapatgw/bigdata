@@ -50,7 +50,7 @@
     <!-- akhir dari navbar -->
     <!-- ini adalah jumbotron -->
     <section id="form" class="">
-      <h2 class="text-center">Buat Akun</h2>
+      <h2 class="text-center fw-bold">Sign Up</h2>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
@@ -63,57 +63,77 @@
           d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
         />
       </svg>
-      <div class="isi">
-        <div class="container">
-          <form>
-            <div class="md-5">
-              <label for="exampleInputtext1" class="form-label"
-                >Nama Panjang</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputtext1"
-                aria-describedby="textHelp"
-              />
-            </div>
-            <div class="md-5">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-            </div>
-            <div class="md-5">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <div class="md-5 mb-2">
-              <label for="exampleInputPassword1" class="form-label"
-                >Masukan ulang Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
-            </div>
-            <div class="mb-2">
-              Sudah Punya Akun?
-              <a href="/user-signin/user-signin.html">Masuk</a>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <form>
+              <!-- nama -->
+              <div class="md-3">
+                <label for="exampleInputtext1" class="form-label"
+                  >Nama Lengkap</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputtext1"
+                  aria-describedby="textHelp"
+                />
+              </div>
+              <!-- nomor -->
+              <div class="md-3">
+                <label for="exampleInputtext1" class="form-label"
+                  >Nomor Telepon</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputtext1"
+                  aria-describedby="textHelp"
+                />
+              </div>
+              <!-- email -->
+              <div class="md-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <!-- password -->
+              <div class="md-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <!-- retype email -->
+              <div class="md-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Masukan ulang Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <!-- link -->
+              <div class="mb-2">
+                Sudah Punya Akun?
+                <a href="/user-signin/user-signin.html">Masuk</a>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
